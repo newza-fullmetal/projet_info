@@ -1,23 +1,29 @@
 bon voici quelques lignes décrire les commande de git 
 tu dois aussi définir ton nom et ton adress email :
-git config --global user.email "tonadresse"
-git config --global user.nom "tonnom"
+"git config --global user.email "tonadresse""
+"git config --global user.nom "tonnom""
 
 sinon tu pourras pas faire de maj
 
-git status indique ce qui a été modifier sur le clone local du dépôt 
+"git status" indique ce qui a été modifier sur le clone local du dépôt 
 
-git diff donne carrément les lignes de modifications (eviter si possible les accents du coup sinon vive les hiéroglyphes)
+"git diff" donne carrément les lignes de modifications (eviter si possible les accents du coup sinon vive les hiéroglyphes)
 
-git add fichier1 fichier2  ajoutera les deux fichiers souhaités à commiter 
+"git add fichier1 fichier2"  ajoutera les deux fichiers souhaités à commiter 
 
-git commit suit normalement le add  pour envoyer tout au dépôt
+"git commit" suit normalement le add  pour envoyer tout au dépôt
 
-git commit-a commitera tous les fichiers en vert et rouge issu de git status, c'est à dire les mise à jours de fichiers et les nouveaux fichiers 
+"git commit-a" commitera tous les fichiers en vert et rouge issu de git status, c'est à dire les mise à jours de fichiers et les nouveaux fichiers 
 
-git commit fichier1 fichier2 mettra à jour spécifiquement ces deux fichiers
+"git commit fichier1 fichier2" mettra à jour spécifiquement ces deux fichiers
 
-git log permert de checker tout les commits effectuers pas les users ( bien pour trouver qui a fais tout bugger ^^)
+"git log" permert de checker tout les commits effectuers pas les users ( bien pour trouver qui a fais tout bugger ^^)
+
+"git commit --amend" permet de modifier le message du dernier commit
+
+"git reser HEAD^" permet d'annuler le dernier commit, tu peux revenir plus en arrière avec d'autres symboles
+
+
 
 
 
