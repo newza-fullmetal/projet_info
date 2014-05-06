@@ -1,0 +1,15 @@
+bon voici quelques lignes décrire les commande de git 
+git status indique ce qui a été modifier sur le clone local du dépôt 
+
+git diff donne carrément les lignes de modifications
+
+git add fichier1 fichier2  ajoutera les deux fichiers souhaités à commiter 
+
+git commit suit normalement le add  pour envoyer tout au dépôt
+
+git commit-a commitera tous les fichiers en vert et rouge issu de git status, c'est à dire les mise à jours de fichiers et les nouveaux fichiers 
+
+git commit fichier1 fichier2 mettra à jour spécifiquement ces deux fichiers
+
+
+
