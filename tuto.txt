@@ -19,6 +19,9 @@ sinon tu pourras pas faire de maj
 
 "git commit fichier1 fichier2" mettra à jour spécifiquement ces deux fichiers
 
+"git push" écrasera tous les anciens fichiers sur le serveurs pas les nouveaux il sera alors impossible de restaurer les anciennes versions, donc on push que 
+une fois par jour quand le travail est jugé terminé et que rien n'est à récupérer
+
 "git log" permert de checker tout les commits effectuers pas les users ( bien pour trouver qui a fais tout bugger ^^)
 
 "git commit --amend" permet de modifier le message du dernier commit
