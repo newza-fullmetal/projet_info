@@ -5,6 +5,8 @@ tu dois aussi définir ton nom et ton adress email :
 
 sinon tu pourras pas faire de maj
 
+"git pull" télécharge les maj du depot depuis le serveur
+
 "git status" indique ce qui a été modifier sur le clone local du dépôt 
 
 "git diff" donne carrément les lignes de modifications (eviter si possible les accents du coup sinon vive les hiéroglyphes)
