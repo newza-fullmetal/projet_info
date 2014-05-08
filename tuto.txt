@@ -1,4 +1,4 @@
-bon voici quelques lignes décrire les commande de git 
+bon voici quelques lignes pour décrire les commande de git 
 tu dois aussi définir ton nom et ton adress email :
 "git config --global user.email "tonadresse""
 "git config --global user.nom "tonnom""
